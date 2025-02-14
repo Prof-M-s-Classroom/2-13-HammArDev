@@ -1,3 +1,3 @@
-/Users/manjumuralidharan/CLionProjects/LinkedList210/cmake-build-debug/CMakeFiles/LinkedList210.dir
-/Users/manjumuralidharan/CLionProjects/LinkedList210/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/manjumuralidharan/CLionProjects/LinkedList210/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/sanga/2-13-HammArDev/cmake-build-debug/CMakeFiles/LinkedList210.dir
+C:/Users/sanga/2-13-HammArDev/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sanga/2-13-HammArDev/cmake-build-debug/CMakeFiles/rebuild_cache.dir
