@@ -128,10 +128,10 @@ public:
 
    void reverseList(){
         //TODO:Write a function to reverse the list using the logic from the slide.
-        Node<T>* prev, curr, next;
-        prev = nullptr;
-        curr = head;
-        while (curr->next) {
+        Node<T>* prev = nullptr;
+        Node<T>* next;
+        Node<T>* curr = head;
+        while (curr) {
             next=curr->next;
             curr->next=prev;
             prev=curr;
@@ -175,19 +175,19 @@ int main() {
     student *s2 = new student("B", 21);
     student *s3 = new student("C", 22);
     LinkedList<student> *ll = new LinkedList<student>(s1);
-    /*ll->add(s2);
+    ll->add(s2);
     ll->addhead(s3);
     ll->print();
     ll->delfirst();
     ll->print();
     ll->dellast();
-    ll->print();*/
+    ll->print();
     ll->add(s2);
     ll->add(s3);
     ll->print();
     ll->insert(3, s2);
     ll->print();
-    /*ll->reverseList();
-    ll->print();*/
+    ll->reverseList();
+    ll->print();
 
 }
